@@ -16,7 +16,7 @@ AllowPortNetNames=0
 AllowSheetEntryNetNames=1
 AppendSheetNumberToLocalNets=0
 NetlistSinglePinNets=0
-DefaultConfiguration=Sources
+DefaultConfiguration=Default - All Constraints
 UserID=0xFFFFFFFF
 DefaultPcbProtel=1
 DefaultPcbPcad=0
@@ -38,13 +38,13 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
-DocumentPath=SRD Generator scheme.SchDoc
+DocumentPath=RD15HVF1.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=0
+AnnotateOrder=-1
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -52,225 +52,28 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=YUHGWOZV
+DocumentUniqueId=WBIWEMPA
 
-[Parameter1]
-Name=Вид_документа
-Value=
+[Document2]
+DocumentPath=RD15HVF1.SchLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=LDLAFPJK
 
-[Parameter2]
-Name=Вид_документа_PCB
-Value=
-
-[Parameter3]
-Name=Вид_документа_SCH
-Value=
-
-[Parameter4]
-Name=Дата_изменения
-Value=
-
-[Parameter5]
-Name=Дата_изменения_ВП
-Value=
-
-[Parameter6]
-Name=Дата_изменения_ПЭ3
-Value=
-
-[Parameter7]
-Name=Дата_изменения_СП
-Value=
-
-[Parameter8]
-Name=Код_документа
-Value=
-
-[Parameter9]
-Name=Код_документа_PCB
-Value=
-
-[Parameter10]
-Name=Код_документа_SCH
-Value=
-
-[Parameter11]
-Name=Литера
-Value=
-
-[Parameter12]
-Name=Литера2
-Value=
-
-[Parameter13]
-Name=Литера3
-Value=
-
-[Parameter14]
-Name=Наименование
-Value=
-
-[Parameter15]
-Name=Наименование1
-Value=
-
-[Parameter16]
-Name=Наименование2
-Value=
-
-[Parameter17]
-Name=Наименование3
-Value=
-
-[Parameter18]
-Name=Наименование_PCB
-Value=
-
-[Parameter19]
-Name=Номер_документа_изменение
-Value=
-
-[Parameter20]
-Name=Номер_документа_изменение_ВП
-Value=
-
-[Parameter21]
-Name=Номер_документа_изменение_ПЭ3
-Value=
-
-[Parameter22]
-Name=Номер_документа_изменение_СП
-Value=
-
-[Parameter23]
-Name=Обозначение
-Value=СШП генератор
-
-[Parameter24]
-Name=Обозначение_PCB
-Value=
-
-[Parameter25]
-Name=Обозначение_Код
-Value=СШП генератор
-
-[Parameter26]
-Name=Перв.Примен.
-Value=
-
-[Parameter27]
-Name=ПервПримен
-Value=
-
-[Parameter28]
-Name=Порядковый_номер_изменения
-Value=
-
-[Parameter29]
-Name=Порядковый_номер_изменения_ВП
-Value=
-
-[Parameter30]
-Name=Порядковый_номер_изменения_ПЭ3
-Value=
-
-[Parameter31]
-Name=Порядковый_номер_изменения_СП
-Value=
-
-[Parameter32]
-Name=Проект
-Value=
-
-[Parameter33]
-Name=Раздел
-Value=
-
-[Parameter34]
-Name=Раздел_PCB
-Value=
-
-[Parameter35]
-Name=Раздел_SCH
-Value=
-
-[Parameter36]
-Name=Указания_изменение
-Value=
-
-[Parameter37]
-Name=Указания_изменение_ВП
-Value=
-
-[Parameter38]
-Name=Указания_изменение_ПЭ3
-Value=
-
-[Parameter39]
-Name=Указания_изменение_СП
-Value=
-
-[Parameter40]
-Name=Формат_PCB
-Value=
-
-[Parameter41]
-Name=Характер_работы
-Value=
-
-[Parameter42]
-Name=п_Доп_графа
-Value=
-
-[Parameter43]
-Name=п_Доп_графа_Р
-Value=
-
-[Parameter44]
-Name=п_Н_контр
-Value=
-
-[Parameter45]
-Name=п_Н_контр_Р
-Value=
-
-[Parameter46]
-Name=п_Пров
-Value=
-
-[Parameter47]
-Name=п_Пров_Р
-Value=
-
-[Parameter48]
-Name=п_Разраб
-Value=
-
-[Parameter49]
-Name=п_Разраб_Р
-Value=Елфимов
-
-[Parameter50]
-Name=п_Т_Контр
-Value=
-
-[Parameter51]
-Name=п_Утв
-Value=
-
-[Parameter52]
-Name=п_Утв_Р
-Value=
-
-[Configuration1]
-Name=Sources
-ParameterCount=0
-ConstraintFileCount=0
-ReleaseItemId=
-Variant=[No Variations]
-OutputJobsCount=0
-ContentTypeGUID=CB6F2064-E317-11DF-B822-12313F0024A2
-ConfigurationType=Source
+[GeneratedDocument1]
+DocumentPath=RD15HVF1.LOG
+DItemRevisionGUID=
 
 [OutputGroup1]
 Name=Netlist Outputs
@@ -387,7 +190,7 @@ PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate
 [OutputGroup3]
 Name=Documentation Outputs
 Description=
-TargetPrinter=Virtual Printer
+TargetPrinter=Universal Document Converter
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Composite
 OutputName1=Composite Drawing
@@ -1213,7 +1016,7 @@ L16=WWWWNWWNWWWNWWWNW
 L17=WNNNNNNNWNNNWWWWN
 
 [Annotate]
-SortOrder=1
+SortOrder=3
 SortLocation=0
 MatchParameter1=Comment
 MatchStrictly1=1
@@ -1233,382 +1036,22 @@ NetClassManualEnabled=1
 NetClassSeparateForBusSections=0
 
 [LibraryUpdateOptions]
-SelectedOnly=1
-UpdateVariants=0
+SelectedOnly=0
+UpdateVariants=1
 PartTypes=0
-ComponentLibIdentifierKind0=Library Name And Type
-ComponentLibraryIdentifier0=Connectors.IntLib
-ComponentDesignItemID0=SMA
-ComponentSymbolReference0=SMA
-ComponentUpdate0=1
-ComponentIsDeviceSheet0=0
-ComponentLibIdentifierKind1=Library Name And Type
-ComponentLibraryIdentifier1=Connectors.IntLib
-ComponentDesignItemID1=Паянный контакт
-ComponentSymbolReference1=Паянный контакт
-ComponentUpdate1=1
-ComponentIsDeviceSheet1=0
-ComponentLibIdentifierKind2=Library Name And Type
-ComponentLibraryIdentifier2=Diods.IntLib
-ComponentDesignItemID2=Diod Schottky
-ComponentSymbolReference2=Diod Schottky
-ComponentUpdate2=1
-ComponentIsDeviceSheet2=0
-ComponentLibIdentifierKind3=Library Name And Type
-ComponentLibraryIdentifier3=Diods.IntLib
-ComponentDesignItemID3=Diod
-ComponentSymbolReference3=Diod
-ComponentUpdate3=1
-ComponentIsDeviceSheet3=0
-ComponentLibIdentifierKind4=Library Name And Type
-ComponentLibraryIdentifier4=Discrete.IntLib
-ComponentDesignItemID4=Capacitor
-ComponentSymbolReference4=Capacitor
-ComponentUpdate4=1
-ComponentIsDeviceSheet4=0
-ComponentLibIdentifierKind5=Library Name And Type
-ComponentLibraryIdentifier5=Discrete.IntLib
-ComponentDesignItemID5=Inductor
-ComponentSymbolReference5=Inductor
-ComponentUpdate5=1
-ComponentIsDeviceSheet5=0
-ComponentLibIdentifierKind6=Library Name And Type
-ComponentLibraryIdentifier6=Discrete.IntLib
-ComponentDesignItemID6=Resistor
-ComponentSymbolReference6=Resistor
-ComponentUpdate6=1
-ComponentIsDeviceSheet6=0
-ComponentLibIdentifierKind7=Library Name And Type
-ComponentLibraryIdentifier7=Transistor.IntLib
-ComponentDesignItemID7=P-chanel -diod
-ComponentSymbolReference7=P-chanel -diod
-ComponentUpdate7=1
-ComponentIsDeviceSheet7=0
-FullReplace=0
+FullReplace=1
 UpdateDesignatorLock=1
 UpdatePartIDLock=1
 PreserveParameterLocations=1
 PreserveParameterVisibility=1
-DoGraphics=0
-DoParameters=0
+DoGraphics=1
+DoParameters=1
 DoModels=1
 AddParameters=0
 RemoveParameters=0
 AddModels=1
 RemoveModels=1
 UpdateCurrentModels=1
-ParameterName0=Comment
-ParameterUpdate0=1
-ParameterName1=Component Kind
-ParameterUpdate1=1
-ParameterName2=ComponentKind
-ParameterUpdate2=1
-ParameterName3=Description
-ParameterUpdate3=1
-ParameterName4=Docs
-ParameterUpdate4=1
-ParameterName5=HelpURL
-ParameterUpdate5=1
-ParameterName6=Library Reference
-ParameterUpdate6=1
-ParameterName7=Manufacturer
-ParameterUpdate7=1
-ParameterName8=Model
-ParameterUpdate8=1
-ParameterName9=Name
-ParameterUpdate9=1
-ParameterName10=Value
-ParameterUpdate10=1
-ModelTypeGroup0=PCBLIB
-ModelTypeUpdate0=1
-ModelType0=PCBLIB
-ModelName0=8-HSOF
-ModelUpdate0=1
-ModelType1=PCBLIB
-ModelName1=CAP: B32021
-ModelUpdate1=1
-ModelType2=PCBLIB
-ModelName2=CAP: B32521
-ModelUpdate2=1
-ModelType3=PCBLIB
-ModelName3=CAP: B32522
-ModelUpdate3=1
-ModelType4=PCBLIB
-ModelName4=CAP: B32653A
-ModelUpdate4=1
-ModelType5=PCBLIB
-ModelName5=CAP: B32654
-ModelUpdate5=1
-ModelType6=PCBLIB
-ModelName6=CAP: B32672L
-ModelUpdate6=1
-ModelType7=PCBLIB
-ModelName7=CAP: B32674
-ModelUpdate7=1
-ModelType8=PCBLIB
-ModelName8=CAP: B32676
-ModelUpdate8=1
-ModelType9=PCBLIB
-ModelName9=CAP: B32774
-ModelUpdate9=1
-ModelType10=PCBLIB
-ModelName10=CAP: B32776
-ModelUpdate10=1
-ModelType11=PCBLIB
-ModelName11=CAP: B32923
-ModelUpdate11=1
-ModelType12=PCBLIB
-ModelName12=CAP: DEBB33D
-ModelUpdate12=1
-ModelType13=PCBLIB
-ModelName13=CAP: ECW
-ModelUpdate13=1
-ModelType14=PCBLIB
-ModelName14=CAP: EZPE
-ModelUpdate14=1
-ModelType15=PCBLIB
-ModelName15=CH0201C
-ModelUpdate15=1
-ModelType16=PCBLIB
-ModelName16=CH0201L
-ModelUpdate16=1
-ModelType17=PCBLIB
-ModelName17=CH0201R
-ModelUpdate17=1
-ModelType18=PCBLIB
-ModelName18=CH0402C
-ModelUpdate18=1
-ModelType19=PCBLIB
-ModelName19=CH0402L
-ModelUpdate19=1
-ModelType20=PCBLIB
-ModelName20=CH0402R
-ModelUpdate20=1
-ModelType21=PCBLIB
-ModelName21=CH0603C
-ModelUpdate21=1
-ModelType22=PCBLIB
-ModelName22=CH0603L
-ModelUpdate22=1
-ModelType23=PCBLIB
-ModelName23=CH0603R
-ModelUpdate23=1
-ModelType24=PCBLIB
-ModelName24=CH0805C
-ModelUpdate24=1
-ModelType25=PCBLIB
-ModelName25=CH0805L
-ModelUpdate25=1
-ModelType26=PCBLIB
-ModelName26=CH0805R
-ModelUpdate26=1
-ModelType27=PCBLIB
-ModelName27=CH1206C
-ModelUpdate27=1
-ModelType28=PCBLIB
-ModelName28=CH1206R
-ModelUpdate28=1
-ModelType29=PCBLIB
-ModelName29=CH1210C
-ModelUpdate29=1
-ModelType30=PCBLIB
-ModelName30=CH1812C
-ModelUpdate30=1
-ModelType31=PCBLIB
-ModelName31=CH2010R
-ModelUpdate31=1
-ModelType32=PCBLIB
-ModelName32=CH2220C
-ModelUpdate32=1
-ModelType33=PCBLIB
-ModelName33=CH2512R
-ModelUpdate33=1
-ModelType34=PCBLIB
-ModelName34=CON: SMA
-ModelUpdate34=1
-ModelType35=PCBLIB
-ModelName35=CON: SMA-R
-ModelUpdate35=1
-ModelType36=PCBLIB
-ModelName36=DIOD: 2ДШ680
-ModelUpdate36=1
-ModelType37=PCBLIB
-ModelName37=DIOD: PowerDI-5
-ModelUpdate37=1
-ModelType38=PCBLIB
-ModelName38=DO221AA
-ModelUpdate38=1
-ModelType39=PCBLIB
-ModelName39=DPAK - 21
-ModelUpdate39=1
-ModelType40=PCBLIB
-ModelName40=IND: B82477G
-ModelUpdate40=1
-ModelType41=PCBLIB
-ModelName41=IND: B82477G4
-ModelUpdate41=1
-ModelType42=PCBLIB
-ModelName42=IND: CD43
-ModelUpdate42=1
-ModelType43=PCBLIB
-ModelName43=IND: CDEP147
-ModelUpdate43=1
-ModelType44=PCBLIB
-ModelName44=IND: CDRH127
-ModelUpdate44=1
-ModelType45=PCBLIB
-ModelName45=IND: CDRH4D28
-ModelUpdate45=1
-ModelType46=PCBLIB
-ModelName46=IND: CDRH74
-ModelUpdate46=1
-ModelType47=PCBLIB
-ModelName47=IND: CDRH8D43
-ModelUpdate47=1
-ModelType48=PCBLIB
-ModelName48=IND: IHLP 8787
-ModelUpdate48=1
-ModelType49=PCBLIB
-ModelName49=IND: IHLP2020
-ModelUpdate49=1
-ModelType50=PCBLIB
-ModelName50=IND: IHLP4040
-ModelUpdate50=1
-ModelType51=PCBLIB
-ModelName51=IND: IHLP6767
-ModelUpdate51=1
-ModelType52=PCBLIB
-ModelName52=IND: LQH32
-ModelUpdate52=1
-ModelType53=PCBLIB
-ModelName53=IND: PM75
-ModelUpdate53=1
-ModelType54=PCBLIB
-ModelName54=IND: SCRH105R
-ModelUpdate54=1
-ModelType55=PCBLIB
-ModelName55=IND: SDE0604A
-ModelUpdate55=1
-ModelType56=PCBLIB
-ModelName56=IND: SDR0403
-ModelUpdate56=1
-ModelType57=PCBLIB
-ModelName57=IND: SDR0604
-ModelUpdate57=1
-ModelType58=PCBLIB
-ModelName58=IND: SDR0805
-ModelUpdate58=1
-ModelType59=PCBLIB
-ModelName59=IND: SDR1005
-ModelUpdate59=1
-ModelType60=PCBLIB
-ModelName60=IND: SRN3015
-ModelUpdate60=1
-ModelType61=PCBLIB
-ModelName61=IND: SRN5040
-ModelUpdate61=1
-ModelType62=PCBLIB
-ModelName62=IND: SRP1038A
-ModelUpdate62=1
-ModelType63=PCBLIB
-ModelName63=IND: SRP1265A
-ModelUpdate63=1
-ModelType64=PCBLIB
-ModelName64=IND: SRP1770TA
-ModelUpdate64=1
-ModelType65=PCBLIB
-ModelName65=IND: SRR1208
-ModelUpdate65=1
-ModelType66=PCBLIB
-ModelName66=IND: SRR1210
-ModelUpdate66=1
-ModelType67=PCBLIB
-ModelName67=IND: SRR1260
-ModelUpdate67=1
-ModelType68=PCBLIB
-ModelName68=IND: SRU1048
-ModelUpdate68=1
-ModelType69=PCBLIB
-ModelName69=RES: SQP 10W
-ModelUpdate69=1
-ModelType70=PCBLIB
-ModelName70=SMA
-ModelUpdate70=1
-ModelType71=PCBLIB
-ModelName71=SMB
-ModelUpdate71=1
-ModelType72=PCBLIB
-ModelName72=SMC
-ModelUpdate72=1
-ModelType73=PCBLIB
-ModelName73=SOD123
-ModelUpdate73=1
-ModelType74=PCBLIB
-ModelName74=SOD123F
-ModelUpdate74=1
-ModelType75=PCBLIB
-ModelName75=SOD123W
-ModelUpdate75=1
-ModelType76=PCBLIB
-ModelName76=SOD323
-ModelUpdate76=1
-ModelType77=PCBLIB
-ModelName77=SOD80
-ModelUpdate77=1
-ModelType78=PCBLIB
-ModelName78=Soldered contact
-ModelUpdate78=1
-ModelType79=PCBLIB
-ModelName79=SOT223
-ModelUpdate79=1
-ModelType80=PCBLIB
-ModelName80=SOT223_1324
-ModelUpdate80=1
-ModelType81=PCBLIB
-ModelName81=SOT23_123
-ModelUpdate81=1
-ModelType82=PCBLIB
-ModelName82=SOT23_132
-ModelUpdate82=1
-ModelType83=PCBLIB
-ModelName83=SOT23_231
-ModelUpdate83=1
-ModelType84=PCBLIB
-ModelName84=SOT23_321
-ModelUpdate84=1
-ModelType85=PCBLIB
-ModelName85=SOT89_123
-ModelUpdate85=1
-ModelType86=PCBLIB
-ModelName86=SOT89_132
-ModelUpdate86=1
-ModelType87=PCBLIB
-ModelName87=TO220_123
-ModelUpdate87=1
-ModelType88=PCBLIB
-ModelName88=TO220_132
-ModelUpdate88=1
-ModelType89=PCBLIB
-ModelName89=TO220_321
-ModelUpdate89=1
-ModelType90=PCBLIB
-ModelName90=TO220-2
-ModelUpdate90=1
-ModelType91=PCBLIB
-ModelName91=TO220-2 _H
-ModelUpdate91=1
-ModelType92=PCBLIB
-ModelName92=TO220FPAC
-ModelUpdate92=1
-ModelType93=PCBLIB
-ModelName93=TO247_123
-ModelUpdate93=1
-ModelType94=PCBLIB
-ModelName94=TO247_13
-ModelUpdate94=1
-ModelType95=PCBLIB
-ModelName95=TO247_132
-ModelUpdate95=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0
@@ -1622,7 +1065,4 @@ ComparisonOptions2=Kind=Component Class|MinPercent=75|MinMatch=3|ShowMatch=-1|Co
 ComparisonOptions3=Kind=Rule|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
 ComparisonOptions4=Kind=Differential Pair|MinPercent=50|MinMatch=1|ShowMatch=0|Confirm=0|UseName=0|InclAllRules=0
 ComparisonOptions5=Kind=Structure Class|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
-
-[SmartPDF]
-PageOptions=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 

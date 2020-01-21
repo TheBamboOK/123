@@ -1,0 +1,30 @@
+PCAD Importer Log
+Project : RD15HVF1.LibPkg
+
+Section : E:\Other\Аспирантура\Плата генератора\Footprint & 3D\RD15HVF1\RD15HVF1.lia
+    Section : PCB Library - RD15HVF1.PcbLib
+        Section : Load Messages
+            Warning - 1 : Skipping Token MFN On Line 172
+            Warning - 1 : Skipping Token attachedSymbol On Line 262
+        EndSection
+
+        Section : Import Messages
+        EndSection
+    EndSection
+
+    Section : SCH Library - RD15HVF1.SchLib
+        Section : Parsing Messages
+            Warning - 1 : Skipping Token padStyleDef On Line 9
+            Warning - 1 : Skipping Token multiLayer On Line 84
+            Warning - 1 : Skipping Token layerContents On Line 89
+            Warning - 1 : Skipping Token layerContents On Line 126
+            Warning - 1 : Skipping Token layerContents On Line 148
+            Warning - 1 : Skipping Token isVisible On Line 219
+            Warning - 1 : Skipping Token isVisible On Line 220
+            Warning - 1 : Skipping Token isVisible On Line 221
+        EndSection
+
+        Section : Generating SCH Library - RD15HVF1.SchLib
+        EndSection
+    EndSection
+EndSection
