@@ -1,4 +1,4 @@
-[Design]
+п»ї[Design]
 Version=1.0
 HierarchyMode=0
 ChannelRoomNamingStyle=0
@@ -23,11 +23,13 @@ DefaultPcbPcad=0
 ReorderDocumentsOnCompile=1
 NameNetsHierarchically=0
 PowerPortNamesTakePriority=0
+AutoSheetNumbering=0
 PushECOToAnnotationFile=1
 DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
+IsProjectConflictPreventionWarningsEnabled=1
 OutputPath=
 LogFolderPath=
 ManagedProjectGUID=
@@ -54,212 +56,263 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=YUHGWOZV
 
+[Document2]
+DocumentPath=libs\SRD Generator.SCHLIB
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=TLMHHSZF
+
+[Document3]
+DocumentPath=SRD Generator PCB.PcbDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=HGGSBYJL
+
+[Document4]
+DocumentPath=libs\SRD Generator PCB.PcbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=TJPDGIRV
+
 [Parameter1]
-Name=Вид_документа
+Name=Р’РёРґ_РґРѕРєСѓРјРµРЅС‚Р°
 Value=
 
 [Parameter2]
-Name=Вид_документа_PCB
+Name=Р’РёРґ_РґРѕРєСѓРјРµРЅС‚Р°_PCB
 Value=
 
 [Parameter3]
-Name=Вид_документа_SCH
+Name=Р’РёРґ_РґРѕРєСѓРјРµРЅС‚Р°_SCH
 Value=
 
 [Parameter4]
-Name=Дата_изменения
+Name=Р”Р°С‚Р°_РёР·РјРµРЅРµРЅРёСЏ
 Value=
 
 [Parameter5]
-Name=Дата_изменения_ВП
+Name=Р”Р°С‚Р°_РёР·РјРµРЅРµРЅРёСЏ_Р’Рџ
 Value=
 
 [Parameter6]
-Name=Дата_изменения_ПЭ3
+Name=Р”Р°С‚Р°_РёР·РјРµРЅРµРЅРёСЏ_РџР­3
 Value=
 
 [Parameter7]
-Name=Дата_изменения_СП
+Name=Р”Р°С‚Р°_РёР·РјРµРЅРµРЅРёСЏ_РЎРџ
 Value=
 
 [Parameter8]
-Name=Код_документа
+Name=РљРѕРґ_РґРѕРєСѓРјРµРЅС‚Р°
 Value=
 
 [Parameter9]
-Name=Код_документа_PCB
+Name=РљРѕРґ_РґРѕРєСѓРјРµРЅС‚Р°_PCB
 Value=
 
 [Parameter10]
-Name=Код_документа_SCH
+Name=РљРѕРґ_РґРѕРєСѓРјРµРЅС‚Р°_SCH
 Value=
 
 [Parameter11]
-Name=Литера
+Name=Р›РёС‚РµСЂР°
 Value=
 
 [Parameter12]
-Name=Литера2
+Name=Р›РёС‚РµСЂР°2
 Value=
 
 [Parameter13]
-Name=Литера3
+Name=Р›РёС‚РµСЂР°3
 Value=
 
 [Parameter14]
-Name=Наименование
+Name=РќР°РёРјРµРЅРѕРІР°РЅРёРµ
 Value=
 
 [Parameter15]
-Name=Наименование1
+Name=РќР°РёРјРµРЅРѕРІР°РЅРёРµ1
 Value=
 
 [Parameter16]
-Name=Наименование2
+Name=РќР°РёРјРµРЅРѕРІР°РЅРёРµ2
 Value=
 
 [Parameter17]
-Name=Наименование3
+Name=РќР°РёРјРµРЅРѕРІР°РЅРёРµ3
 Value=
 
 [Parameter18]
-Name=Наименование_PCB
+Name=РќР°РёРјРµРЅРѕРІР°РЅРёРµ_PCB
 Value=
 
 [Parameter19]
-Name=Номер_документа_изменение
+Name=РќРѕРјРµСЂ_РґРѕРєСѓРјРµРЅС‚Р°_РёР·РјРµРЅРµРЅРёРµ
 Value=
 
 [Parameter20]
-Name=Номер_документа_изменение_ВП
+Name=РќРѕРјРµСЂ_РґРѕРєСѓРјРµРЅС‚Р°_РёР·РјРµРЅРµРЅРёРµ_Р’Рџ
 Value=
 
 [Parameter21]
-Name=Номер_документа_изменение_ПЭ3
+Name=РќРѕРјРµСЂ_РґРѕРєСѓРјРµРЅС‚Р°_РёР·РјРµРЅРµРЅРёРµ_РџР­3
 Value=
 
 [Parameter22]
-Name=Номер_документа_изменение_СП
+Name=РќРѕРјРµСЂ_РґРѕРєСѓРјРµРЅС‚Р°_РёР·РјРµРЅРµРЅРёРµ_РЎРџ
 Value=
 
 [Parameter23]
-Name=Обозначение
-Value=СШП генератор
+Name=РћР±РѕР·РЅР°С‡РµРЅРёРµ
+Value=РЎРЁРџ РіРµРЅРµСЂР°С‚РѕСЂ
 
 [Parameter24]
-Name=Обозначение_PCB
+Name=РћР±РѕР·РЅР°С‡РµРЅРёРµ_PCB
 Value=
 
 [Parameter25]
-Name=Обозначение_Код
-Value=СШП генератор
+Name=РћР±РѕР·РЅР°С‡РµРЅРёРµ_РљРѕРґ
+Value=РЎРЁРџ РіРµРЅРµСЂР°С‚РѕСЂ
 
 [Parameter26]
-Name=Перв.Примен.
+Name=РџРµСЂРІ.РџСЂРёРјРµРЅ.
 Value=
 
 [Parameter27]
-Name=ПервПримен
+Name=РџРµСЂРІРџСЂРёРјРµРЅ
 Value=
 
 [Parameter28]
-Name=Порядковый_номер_изменения
+Name=РџРѕСЂСЏРґРєРѕРІС‹Р№_РЅРѕРјРµСЂ_РёР·РјРµРЅРµРЅРёСЏ
 Value=
 
 [Parameter29]
-Name=Порядковый_номер_изменения_ВП
+Name=РџРѕСЂСЏРґРєРѕРІС‹Р№_РЅРѕРјРµСЂ_РёР·РјРµРЅРµРЅРёСЏ_Р’Рџ
 Value=
 
 [Parameter30]
-Name=Порядковый_номер_изменения_ПЭ3
+Name=РџРѕСЂСЏРґРєРѕРІС‹Р№_РЅРѕРјРµСЂ_РёР·РјРµРЅРµРЅРёСЏ_РџР­3
 Value=
 
 [Parameter31]
-Name=Порядковый_номер_изменения_СП
+Name=РџРѕСЂСЏРґРєРѕРІС‹Р№_РЅРѕРјРµСЂ_РёР·РјРµРЅРµРЅРёСЏ_РЎРџ
 Value=
 
 [Parameter32]
-Name=Проект
+Name=РџСЂРѕРµРєС‚
 Value=
 
 [Parameter33]
-Name=Раздел
+Name=Р Р°Р·РґРµР»
 Value=
 
 [Parameter34]
-Name=Раздел_PCB
+Name=Р Р°Р·РґРµР»_PCB
 Value=
 
 [Parameter35]
-Name=Раздел_SCH
+Name=Р Р°Р·РґРµР»_SCH
 Value=
 
 [Parameter36]
-Name=Указания_изменение
+Name=РЈРєР°Р·Р°РЅРёСЏ_РёР·РјРµРЅРµРЅРёРµ
 Value=
 
 [Parameter37]
-Name=Указания_изменение_ВП
+Name=РЈРєР°Р·Р°РЅРёСЏ_РёР·РјРµРЅРµРЅРёРµ_Р’Рџ
 Value=
 
 [Parameter38]
-Name=Указания_изменение_ПЭ3
+Name=РЈРєР°Р·Р°РЅРёСЏ_РёР·РјРµРЅРµРЅРёРµ_РџР­3
 Value=
 
 [Parameter39]
-Name=Указания_изменение_СП
+Name=РЈРєР°Р·Р°РЅРёСЏ_РёР·РјРµРЅРµРЅРёРµ_РЎРџ
 Value=
 
 [Parameter40]
-Name=Формат_PCB
+Name=Р¤РѕСЂРјР°С‚_PCB
 Value=
 
 [Parameter41]
-Name=Характер_работы
+Name=РҐР°СЂР°РєС‚РµСЂ_СЂР°Р±РѕС‚С‹
 Value=
 
 [Parameter42]
-Name=п_Доп_графа
+Name=Рї_Р”РѕРї_РіСЂР°С„Р°
 Value=
 
 [Parameter43]
-Name=п_Доп_графа_Р
+Name=Рї_Р”РѕРї_РіСЂР°С„Р°_Р 
 Value=
 
 [Parameter44]
-Name=п_Н_контр
+Name=Рї_Рќ_РєРѕРЅС‚СЂ
 Value=
 
 [Parameter45]
-Name=п_Н_контр_Р
+Name=Рї_Рќ_РєРѕРЅС‚СЂ_Р 
 Value=
 
 [Parameter46]
-Name=п_Пров
+Name=Рї_РџСЂРѕРІ
 Value=
 
 [Parameter47]
-Name=п_Пров_Р
+Name=Рї_РџСЂРѕРІ_Р 
 Value=
 
 [Parameter48]
-Name=п_Разраб
+Name=Рї_Р Р°Р·СЂР°Р±
 Value=
 
 [Parameter49]
-Name=п_Разраб_Р
-Value=Елфимов
+Name=Рї_Р Р°Р·СЂР°Р±_Р 
+Value=Р•Р»С„РёРјРѕРІ
 
 [Parameter50]
-Name=п_Т_Контр
+Name=Рї_Рў_РљРѕРЅС‚СЂ
 Value=
 
 [Parameter51]
-Name=п_Утв
+Name=Рї_РЈС‚РІ
 Value=
 
 [Parameter52]
-Name=п_Утв_Р
+Name=Рї_РЈС‚РІ_Р 
 Value=
 
 [Configuration1]
@@ -381,7 +434,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Universal Document Converter
+TargetPrinter=\\srv-soz-ps01.sozvezdie.su\81002 - Kyocera ECOSYS P2040dn KX
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
@@ -449,6 +502,12 @@ OutputDocumentPath10=
 OutputVariantName10=
 OutputDefault10=0
 PageOptions10=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType11=PDF3D MBA
+OutputName11=PDF3D MBA
+OutputDocumentPath11=
+OutputVariantName11=
+OutputDefault11=0
+PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 
 [OutputGroup4]
 Name=Assembly Outputs
@@ -585,6 +644,12 @@ OutputName7=Report Single Pin Nets
 OutputDocumentPath7=
 OutputVariantName7=[No Variations]
 OutputDefault7=0
+OutputType8=Export Comments
+OutputName8=Export Comments
+OutputDocumentPath8=
+OutputVariantName8=[No Variations]
+OutputDefault8=0
+PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 
 [OutputGroup7]
 Name=Other Outputs
@@ -693,78 +758,6 @@ OutputDocumentPath17=
 OutputVariantName17=
 OutputDefault17=0
 PageOptions17=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType18=Text Print
-OutputName18=Text Print
-OutputDocumentPath18=
-OutputVariantName18=
-OutputDefault18=0
-PageOptions18=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType19=Text Print
-OutputName19=Text Print
-OutputDocumentPath19=
-OutputVariantName19=
-OutputDefault19=0
-PageOptions19=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType20=Text Print
-OutputName20=Text Print
-OutputDocumentPath20=
-OutputVariantName20=
-OutputDefault20=0
-PageOptions20=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType21=Text Print
-OutputName21=Text Print
-OutputDocumentPath21=
-OutputVariantName21=
-OutputDefault21=0
-PageOptions21=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType22=Text Print
-OutputName22=Text Print
-OutputDocumentPath22=
-OutputVariantName22=
-OutputDefault22=0
-PageOptions22=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType23=Text Print
-OutputName23=Text Print
-OutputDocumentPath23=
-OutputVariantName23=
-OutputDefault23=0
-PageOptions23=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType24=Text Print
-OutputName24=Text Print
-OutputDocumentPath24=
-OutputVariantName24=
-OutputDefault24=0
-PageOptions24=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType25=Text Print
-OutputName25=Text Print
-OutputDocumentPath25=
-OutputVariantName25=
-OutputDefault25=0
-PageOptions25=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType26=Text Print
-OutputName26=Text Print
-OutputDocumentPath26=
-OutputVariantName26=
-OutputDefault26=0
-PageOptions26=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType27=Text Print
-OutputName27=Text Print
-OutputDocumentPath27=
-OutputVariantName27=
-OutputDefault27=0
-PageOptions27=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType28=Text Print
-OutputName28=Text Print
-OutputDocumentPath28=
-OutputVariantName28=
-OutputDefault28=0
-PageOptions28=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType29=Text Print
-OutputName29=Text Print
-OutputDocumentPath29=
-OutputVariantName29=
-OutputDefault29=0
-PageOptions29=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 
 [OutputGroup8]
 Name=Validation Outputs
@@ -1000,6 +993,8 @@ Type114=1
 Type115=1
 Type116=1
 Type117=1
+Type118=1
+Type119=1
 
 [Difference Levels]
 Type1=1
@@ -1068,6 +1063,8 @@ Type63=1
 Type64=1
 Type65=1
 Type66=1
+Type67=1
+Type68=1
 
 [Electrical Rules Check]
 Type1=1
@@ -1076,33 +1073,33 @@ Type3=2
 Type4=1
 Type5=2
 Type6=2
-Type7=1
+Type7=0
 Type8=1
 Type9=1
 Type10=1
 Type11=2
-Type12=2
-Type13=2
+Type12=0
+Type13=0
 Type14=1
 Type15=1
 Type16=1
 Type17=1
 Type18=1
 Type19=1
-Type20=1
-Type21=1
-Type22=1
-Type23=1
+Type20=0
+Type21=0
+Type22=0
+Type23=0
 Type24=1
 Type25=2
-Type26=2
+Type26=0
 Type27=2
 Type28=1
 Type29=1
 Type30=1
 Type31=1
 Type32=2
-Type33=2
+Type33=0
 Type34=2
 Type35=1
 Type36=2
@@ -1113,15 +1110,15 @@ Type40=2
 Type41=0
 Type42=2
 Type43=1
-Type44=1
-Type45=2
-Type46=1
-Type47=2
-Type48=2
-Type49=1
+Type44=0
+Type45=0
+Type46=0
+Type47=0
+Type48=0
+Type49=0
 Type50=2
-Type51=1
-Type52=1
+Type51=0
+Type52=0
 Type53=1
 Type54=1
 Type55=1
@@ -1129,10 +1126,10 @@ Type56=2
 Type57=1
 Type58=1
 Type59=2
-Type60=1
-Type61=2
-Type62=2
-Type63=1
+Type60=0
+Type61=0
+Type62=0
+Type63=0
 Type64=0
 Type65=2
 Type66=3
@@ -1170,7 +1167,7 @@ Type97=2
 Type98=0
 Type99=1
 Type100=2
-Type101=1
+Type101=0
 Type102=2
 Type103=2
 Type104=1
@@ -1192,6 +1189,9 @@ Type119=3
 MultiChannelAlternate=2
 AlternateItemFail=3
 Type122=2
+Type123=1
+Type124=1
+Type125=1
 
 [ERC Connection Matrix]
 L1=NNNNNNNNNNNWNNNWW
@@ -1215,6 +1215,7 @@ L17=WNNNNNNNWNNNWWWWN
 [Annotate]
 SortOrder=1
 SortLocation=0
+ReplaceSubparts=0
 MatchParameter1=Comment
 MatchStrictly1=1
 MatchParameter2=Library Reference
@@ -1235,6 +1236,7 @@ NetClassSeparateForBusSections=0
 [LibraryUpdateOptions]
 SelectedOnly=1
 UpdateVariants=0
+UpdateToLatestRevision=1
 PartTypes=0
 ComponentLibIdentifierKind0=Library Name And Type
 ComponentLibraryIdentifier0=Connectors.IntLib
@@ -1244,8 +1246,8 @@ ComponentUpdate0=1
 ComponentIsDeviceSheet0=0
 ComponentLibIdentifierKind1=Library Name And Type
 ComponentLibraryIdentifier1=Connectors.IntLib
-ComponentDesignItemID1=Паянный контакт
-ComponentSymbolReference1=Паянный контакт
+ComponentDesignItemID1=РџР°СЏРЅРЅС‹Р№ РєРѕРЅС‚Р°РєС‚
+ComponentSymbolReference1=РџР°СЏРЅРЅС‹Р№ РєРѕРЅС‚Р°РєС‚
 ComponentUpdate1=1
 ComponentIsDeviceSheet1=0
 ComponentLibIdentifierKind2=Library Name And Type
@@ -1430,7 +1432,7 @@ ModelType35=PCBLIB
 ModelName35=CON: SMA-R
 ModelUpdate35=1
 ModelType36=PCBLIB
-ModelName36=DIOD: 2ДШ680
+ModelName36=DIOD: 2Р”РЁ680
 ModelUpdate36=1
 ModelType37=PCBLIB
 ModelName37=DIOD: PowerDI-5
@@ -1613,15 +1615,16 @@ ModelUpdate95=1
 [DatabaseUpdateOptions]
 SelectedOnly=0
 UpdateVariants=1
+UpdateToLatestRevision=1
 PartTypes=0
 
 [Comparison Options]
-ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
-ComparisonOptions1=Kind=Net Class|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
-ComparisonOptions2=Kind=Component Class|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
-ComparisonOptions3=Kind=Rule|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
-ComparisonOptions4=Kind=Differential Pair|MinPercent=50|MinMatch=1|ShowMatch=0|Confirm=0|UseName=0|InclAllRules=0
-ComparisonOptions5=Kind=Structure Class|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
+ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=-1|UseName=-1|InclAllRules=0
+ComparisonOptions1=Kind=Net Class|MinPercent=75|MinMatch=3|ShowMatch=-1|UseName=-1|InclAllRules=0
+ComparisonOptions2=Kind=Component Class|MinPercent=75|MinMatch=3|ShowMatch=-1|UseName=-1|InclAllRules=0
+ComparisonOptions3=Kind=Rule|MinPercent=75|MinMatch=3|ShowMatch=-1|UseName=-1|InclAllRules=0
+ComparisonOptions4=Kind=Differential Pair|MinPercent=50|MinMatch=1|ShowMatch=0|UseName=0|InclAllRules=0
+ComparisonOptions5=Kind=Structure Class|MinPercent=75|MinMatch=3|ShowMatch=-1|UseName=-1|InclAllRules=0
 
 [SmartPDF]
 PageOptions=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
