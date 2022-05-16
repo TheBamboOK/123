@@ -114,6 +114,10 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=TJPDGIRV
 
+[GeneratedDocument1]
+DocumentPath=Project Outputs for SRD Generator\Design Rule Check - SRD Generator PCB.html
+DItemRevisionGUID=
+
 [Parameter1]
 Name=Вид_документа
 Value=
