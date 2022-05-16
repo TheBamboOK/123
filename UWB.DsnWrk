@@ -1,4 +1,10 @@
 [ProjectGroup]
 Version=1.0
 [Project1]
-ProjectPath=SRD Generator\SRD Generator.PrjPcb
+ProjectPath=..\..\..\..\Project\PRM4\Imitator Channel\Imitator Channel.PrjMbd
+[Project2]
+ProjectPath=..\..\..\..\Project\PRM4\Imitator Channel\RF_RP_mezzanine\RF_RP_mezzanine.PrjPcb
+[Project3]
+ProjectPath=..\..\..\..\Project\PRM4\Imitator Channel\5V_supply\5V_supply.PrjPcb
+[Project4]
+ProjectPath=..\..\..\..\Project\PRM4\Imitator Channel\Clocking\Clocking.PrjPcb
