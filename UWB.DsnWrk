@@ -7,6 +7,6 @@ ProjectPath=..\..\..\..\Project\PRM4\Imitator Channel\5V_supply\5V_supply.PrjPcb
 [Project3]
 ProjectPath=..\..\..\..\Project\PRM4\Imitator Channel\Clocking\Clocking.PrjPcb
 [Project4]
-ProjectPath=..\..\..\..\Project\PRM4\Imitator Channel\RF_RP_mezzanine\RF_RP_mezzanine.PrjPcb
-[Project5]
 ProjectPath=SRD Generator\SRD Generator.PrjPcb
+[Project5]
+ProjectPath=..\..\..\..\Project\PRM4\Imitator Channel\RF_RP_mezzanine\RF_RP_mezzanine.PrjPcb
