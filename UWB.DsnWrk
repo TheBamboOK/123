@@ -1,12 +1,18 @@
 [ProjectGroup]
 Version=1.0
 [Project1]
-ProjectPath=..\..\..\..\Project\PRM4\Imitator Channel\Imitator Channel.PrjMbd
+ProjectPath=..\..\..\..\Project\Снайпер\ПКУ\RF_RP_mezzanine_with_gen\RF_RP_mezzanine_with_gen.PrjPcb
 [Project2]
-ProjectPath=..\..\..\..\Project\PRM4\Imitator Channel\5V_supply\5V_supply.PrjPcb
+ProjectPath=..\..\..\..\Project\Метелица\Imitator Channel\!Imitator multiboard\Imitator Channel.PrjMbd
 [Project3]
-ProjectPath=..\..\..\..\Project\PRM4\Imitator Channel\Clocking\Clocking.PrjPcb
+ProjectPath=..\..\..\..\Project\Метелица\Imitator Channel\Block proj\device_block.PrjPcb
 [Project4]
-ProjectPath=SRD Generator\SRD Generator.PrjPcb
+ProjectPath=..\..\..\..\Project\Метелица\Imitator Channel\5V_supply\5V_supply.PrjPcb
 [Project5]
-ProjectPath=..\..\..\..\Project\PRM4\Imitator Channel\RF_RP_mezzanine\RF_RP_mezzanine.PrjPcb
+ProjectPath=..\..\..\..\Project\Метелица\Imitator Channel\Clocking\Clocking.PrjPcb
+[Project6]
+ProjectPath=..\..\..\..\Project\Метелица\Imitator Channel\RF_RP_mezzanine\RF_RP_mezzanine.PrjPcb
+[Project7]
+ProjectPath=SRD Generator\SRD Generator.PrjPcb
+[Project8]
+ProjectPath=SRD Generator\BLF571_test_cercuit\BLF571_test_cercuit.PrjPcb
